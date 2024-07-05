@@ -28,3 +28,6 @@ jobs:
           debug: false
           review_simple_changes: false
           review_comment_lgtm: false
+     - name: Debug GITHUB_TOKEN
+     run: echo "Token is ${{ secrets.GITHUB_TOKEN }}"
+
