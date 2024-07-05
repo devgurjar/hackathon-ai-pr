@@ -48,7 +48,7 @@ IMPORTANT: Entire response must be in the language with ISO code: ${options.lang
       })
     } else {
       const err =
-        "Unable to initialize the OpenAI API, both 'OPENAI_API_KEY' environment variable are not available"
+        "Unable to initialize the OpenAI API, both 'OPENAI_API_KEY' environment variable are not available TEST"
       throw new Error(err)
     }
   }
